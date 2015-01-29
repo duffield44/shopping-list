@@ -1,0 +1,63 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'komika_axisregular';
+    src: url('fonts/KOMIKAX_-webfont.eot');
+    src: url('fonts/KOMIKAX_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/KOMIKAX_-webfont.woff') format('woff'),
+         url('fonts/KOMIKAX_-webfont.ttf') format('truetype'),
+         url('fonts/KOMIKAX_-webfont.svg#komika_axisregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* General*/
+
+html {
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+}
+
+body {
+	background-image: url("../images/shopping.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: auto;	
+}
+
+/* Main Section */
+
+.main {
+	margin: 2em auto;
+	max-width: 40em;
+	min-height: 36em;
+	background-color: white;
+	opacity: 0.9;
+	/* Old Browser Opacity */
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"; // IE8
+	filter: alpha(opacity=90);
+	-moz-opacity:0.9;
+	-khtml-opacity: 0.9;
+	overflow: hidden;	
+}
+
+
+/* Heading Section */
+
+.heading {
+	margin: 1rem 0;
+	overflow: auto;
+}
+
+.heading .title {
+	font-family: 'komika axis', sans-serif;
+	font-size: 2.5em;
+	margin: 2rem 0 1rem 3rem;
+	float: left;
+}
+
+.heading .reset {
+	margin: 2.7rem 0 0 5rem;
+	float: left;
+}
+
