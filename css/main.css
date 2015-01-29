@@ -69,6 +69,7 @@ body {
 
 .enter {
 	margin-top: 3rem;
+	margin-bottom: 1rem;
 }
 
 .enter .input {
@@ -87,3 +88,39 @@ body {
 	border-radius: 30px;
 }
 
+/* List Section */
+
+.list {
+	
+}
+
+.list p {
+	width: 27em;
+	background-color: gray;
+	margin-left: 3rem;
+	margin-bottom: 0.5rem;
+	padding: 0.5em;
+	border-radius: 30px;
+}
+
+.list .not-checked {
+
+}
+
+.list .checked {
+	text-decoration: line-through;
+}
+
+.fa-check {
+	float: left;
+	margin-right: 1em;
+}
+
+.fa-circle-o {
+	float: left;
+	margin-right: 1em;
+}
+
+.fa-times {
+	float: right;
+}
