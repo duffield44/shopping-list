@@ -130,3 +130,86 @@ body {
 .fa-times {
 	float: right;
 }
+
+/* Reponsive parameters */
+
+@media only screen and (max-width: 700px) {
+	body {
+		padding: 0 1rem;
+	}
+	.main {
+		padding-right: 0.5rem;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.heading .reset {
+		margin-left: 2rem;
+	}
+}
+
+@media only screen and (max-width: 602px) {
+	.heading .reset {
+		margin: 1rem 0 0 3rem;
+	}
+	.heading .title {
+		margin-right: 2rem;
+	}
+	.enter .input {
+		width: 23em;
+	}
+}
+
+@media only screen and (max-width: 540px) {
+	.heading .title {
+		margin-left: 1rem;
+	}
+	.heading .reset {
+		margin-left: 1rem;
+	}
+	.enter .input {
+		margin-left: 1rem;
+	}
+	.list p {
+		margin-left: 1rem;
+	}
+}
+
+@media only screen and (max-width: 510px) {
+	.heading .title {
+		font-size: 2em;
+	}
+	.enter .input {
+		width: 19em;
+	}
+	.list p {
+		width: 23rem
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.enter .input {
+		margin-bottom: 0.5rem;
+	}
+	.list p {
+		width: 19rem
+	}
+}
+
+@media only screen and (max-width: 410px) {
+	.heading .title {
+		margin-right: 1rem;
+	}
+}
+
+@media only screen and (max-width: 395px) {
+	.heading .title {
+		font-size: 1.5em;
+	}
+	.enter .input {
+		width: 15rem
+	}
+	.list p {
+		width: 15rem;
+	}
+}
