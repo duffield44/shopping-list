@@ -13,6 +13,10 @@
 
 /* General*/
 
+*:focus {
+	outline: 0;
+}
+
 html {
 	
 }
@@ -69,6 +73,11 @@ body {
 	border-radius: 30px;
 }
 
+.heading .reset:hover {
+	cursor: pointer;
+	background-color: gray;
+}
+
 
 /* Adding Section */
 
@@ -91,6 +100,11 @@ body {
 	margin-left: 1rem;
 	padding: 0.5em;
 	border-radius: 30px;
+}
+
+.enter .add:hover {
+	cursor: pointer;
+	background-color: gray;
 }
 
 /* List Section */
