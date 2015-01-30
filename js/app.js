@@ -31,6 +31,12 @@ $(document).on("click", ".fa-check", function () {
 	$(this).removeClass("fa-check").addClass("fa-circle-o");
 });
 
+/* Allows user to uncheck items */
+$(document).on("click", ".fa-circle-o", function () {
+	$(this).closest('p').removeClass("checked").addClass("not-checked");
+	$(this).removeClass("fa-circle-o").addClass("fa-check");
+});
+
 
 
 
