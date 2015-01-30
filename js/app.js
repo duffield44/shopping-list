@@ -1,9 +1,15 @@
 $(document).ready(function() {
-	
 
 	/* Allows Add Button to be used as an submit button for input field */
 	$('.add').click(function () {
 		postItem();			
+	})
+
+	/* Allows return key to submit items */
+	$('.input').keydown( function (e) {
+		if (e.keyCode == 13) {
+			postItem();
+		}
 	})
 
 	/* Appends value of input field to the bottom of div.list in a p.not-checked */
@@ -36,6 +42,7 @@ $(document).on("click", ".fa-circle-o", function () {
 	$(this).closest('p').removeClass("checked").addClass("not-checked");
 	$(this).removeClass("fa-circle-o").addClass("fa-check");
 });
+
 
 
 
