@@ -24,6 +24,12 @@ $(document).on("click", ".fa-times", function () {
 	$(this).closest('p').fadeOut(120);
 });
 
+/* Allows user to check items off list by clicking check mark */
+$(document).on("click", ".fa-check", function () {
+	$(this).closest('p').addClass("checked");
+	$(this).addClass("fa-circle-o");
+});
+
 
 
 
