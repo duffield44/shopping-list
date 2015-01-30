@@ -19,6 +19,11 @@ $(document).on("click", ".reset", function () {
 	$('.list').empty();
 });
 
+/* Delete list items by clicking on X */
+$(document).on("click", ".fa-times", function () {
+	$(this).closest('p').fadeOut(120);
+});
+
 
 
 
