@@ -14,6 +14,12 @@ $(document).ready(function() {
 
 });
 
+/* Allows Reset List Button to remove all list items */
+$(document).on("click", ".reset", function () {
+	$('.list').empty();
+});
+
+
 
 
 
