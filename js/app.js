@@ -1,14 +1,22 @@
 $(document).ready(function() {
 
+	/* Removes original value of input field on click */
+	$('.input').on("click", function () {
+		$(this).val("");
+	})
+
 	/* Allows Add Button to be used as an submit button for input field */
 	$('.add').click(function () {
-		postItem();			
+		postItem();	
+		$('.input').val("").focus();
+
 	})
 
 	/* Allows return key to submit items */
 	$('.input').keydown( function (e) {
 		if (e.keyCode == 13) {
 			postItem();
+			$(this).val("");
 		}
 	})
 
