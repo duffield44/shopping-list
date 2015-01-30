@@ -115,6 +115,7 @@ body {
 
 .list p {
 	width: 27em;
+	height: 2em;
 	background-color: gray;
 	margin-left: 3rem;
 	margin-bottom: 0.5rem;
