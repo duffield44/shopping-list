@@ -26,9 +26,13 @@ $(document).on("click", ".fa-times", function () {
 
 /* Allows user to check items off list by clicking check mark */
 $(document).on("click", ".fa-check", function () {
-	$(this).closest('p').addClass("checked");
-	$(this).addClass("fa-circle-o");
+	$
+	$(this).closest('p').removeClass("not-checked").addClass("checked");
+	$(this).removeClass("fa-check").addClass("fa-circle-o");
 });
+
+
+
 
 
 
