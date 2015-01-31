@@ -23,7 +23,13 @@ $(document).ready(function() {
 	/* Appends value of input field to the bottom of div.list in a p.not-checked */
 	function postItem() {
 		var value = $('.input').val();
+		if (value!="") {
 		$('.list').append("<p class='not-checked'><i class='fa fa-check'></i>" + value + "<i class='fa fa-times'></p>");
+		}
+		/* Dropdown alert for an empty list item */
+		else {
+			$('.alert').slideDown("fast").delay(3000).slideUp("fast");
+		}
 	}
 
 });
