@@ -28,7 +28,7 @@ $(document).ready(function() {
 		}
 		/* Dropdown alert for an empty list item */
 		else {
-			$('.alert').slideDown("fast").delay(3000).slideUp("fast");
+			$('.alert p').slideDown("fast").delay(3000).slideUp("fast");
 		}
 	}
 
